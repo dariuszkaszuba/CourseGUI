@@ -1,7 +1,6 @@
 package model;
 
 public class Participant {
-//    private int particip_id;
     private String particip_name;
     private String particip_lastname;
 
@@ -9,7 +8,6 @@ public class Participant {
         this.particip_name = particip_name;
         this.particip_lastname = particip_lastname;
     }
-
 
     public String getParticip_name() {
         return particip_name;
